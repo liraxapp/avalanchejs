@@ -18,6 +18,7 @@ export const NetworkIDToHRP:object = {
   3: "denali",
   4: "everest",
   5: "fuji",
+  6: "lirax",
   12345: "local"
 };
   
@@ -28,6 +29,7 @@ export const HRPToNetworkID:object = {
   "denali": 3,
   "everest": 4,
   "fuji": 5,
+  "lirax": 6,
   "local": 12345
 };
 
@@ -38,6 +40,7 @@ export const NetworkIDToNetworkNames:object = {
   3: ["Denali"],
   4: ["Everest"],
   5: ["Fuji", "Testnet"],
+  6: ["Lirax"],
   12345: ["Local Network"]
 };
 
@@ -50,6 +53,7 @@ export const NetworkNameToNetworkID:object = {
   "Everest": 4,
   "Fuji": 5,
   "Testnet": 5,
+  "Lirax": 6,
   "Local Network": 12345
 };
 
