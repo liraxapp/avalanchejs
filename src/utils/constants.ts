@@ -82,6 +82,8 @@ export const CENTIAVAX:BN = ONEAVAX.div(new BN(100));
 
 export const MILLIAVAX:BN = ONEAVAX.div(new BN(1000));
 
+export const MILLIAVAXPLUS:BN = ONEAVAX.div(new BN(10000));
+
 export const MICROAVAX:BN = ONEAVAX.div(new BN(1000000));
 
 export const NANOAVAX:BN = ONEAVAX.div(new BN(1000000000));
@@ -169,7 +171,7 @@ const n6X:object = {
   blockchainID: 'tkFUSnKE2pQN3XTKhVaCXFpySKmt6k9kZ9Rbdtb997iWsVaux',
   alias: XChainAlias,
   vm: XChainVMName,
-  txFee: MILLIAVAX*10,
+  txFee: MILLIAVAXPLUS,
   creationTxFee: CENTIAVAX
 };
 
