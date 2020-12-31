@@ -401,11 +401,11 @@ export class Defaults {
     6: { 
       hrp: NetworkIDToHRP[6],
       X: n6X,
-      '2JVSBoinj9C2J33VntvzYtVJNZdN2NKiwwKjcumHUWEb5DbBrm': n6X,
+      'tkFUSnKE2pQN3XTKhVaCXFpySKmt6k9kZ9Rbdtb997iWsVaux': n6X,
       P: n6P,
       '11111111111111111111111111111111LpoYY': n6P,
       C: n6C,
-      'yH8D7ThNJkxmtkuv2jgBa4P1Rn3Qpr4pPr7QYNfcdoS6k6HWp': n6C,
+      '2SS7LNNK7J1wPoXqnmZDZ4upFXiqsgqPfrX314gySwLyBRQ1QU': n6C,
     },
     12345: {
       hrp: NetworkIDToHRP[12345],
