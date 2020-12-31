@@ -164,6 +164,40 @@ const n1C:object = {
   chainID: 43114
 };
 
+
+const n6X:object = {
+  blockchainID: 'tkFUSnKE2pQN3XTKhVaCXFpySKmt6k9kZ9Rbdtb997iWsVaux',
+  alias: XChainAlias,
+  vm: XChainVMName,
+  txFee: MILLIAVAX*10,
+  creationTxFee: CENTIAVAX
+};
+
+const n6P:object = {
+  blockchainID: PlatformChainID,
+  alias: PChainAlias,
+  vm: PChainVMName,
+  txFee: MILLIAVAX,
+  creationTxFee: CENTIAVAX,
+  minConsumption: 0.1,
+  maxConsumption: 0.12,
+  maxStakingDuration: new BN(31536000),
+  maxSupply: new BN(1600000000).mul(ONEAVAX),
+  minStake: ONEAVAX.mul(new BN(1000000)),
+  minStakeDuration: 2 * 7 * 24 * 60 * 60, //two weeks
+  maxStakeDuration: 365 * 24 * 60 * 60, // one year
+  minDelegationStake: ONEAVAX.mul(new BN(25)),
+  minDelegationFee: new BN(2)
+};
+
+const n6C:object = {
+  blockchainID: '2SS7LNNK7J1wPoXqnmZDZ4upFXiqsgqPfrX314gySwLyBRQ1QU',
+  alias: CChainAlias,
+  vm: CChainVMName,
+  txFee: MILLIAVAX,
+  gasPrice: GWEI.mul(new BN(470)), 
+  chainID: 43114
+};
 // END TODO
 
 const n2X:object = {
@@ -363,6 +397,15 @@ export class Defaults {
       '11111111111111111111111111111111LpoYY': n5P,
       C: n5C,
       'yH8D7ThNJkxmtkuv2jgBa4P1Rn3Qpr4pPr7QYNfcdoS6k6HWp': n5C,
+    },
+    6: { 
+      hrp: NetworkIDToHRP[6],
+      X: n6X,
+      '2JVSBoinj9C2J33VntvzYtVJNZdN2NKiwwKjcumHUWEb5DbBrm': n6X,
+      P: n6P,
+      '11111111111111111111111111111111LpoYY': n6P,
+      C: n6C,
+      'yH8D7ThNJkxmtkuv2jgBa4P1Rn3Qpr4pPr7QYNfcdoS6k6HWp': n6C,
     },
     12345: {
       hrp: NetworkIDToHRP[12345],
