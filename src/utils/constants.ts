@@ -9,7 +9,7 @@ export const PrivateKeyPrefix:string = "PrivateKey-";
 
 export const NodeIDPrefix:string = "NodeID-";
 
-export const PrimaryAssetAlias:string = "AVAX";
+export const PrimaryAssetAlias:string = "LIRAX";
 
 export const NetworkIDToHRP:object = {
   0: "custom",
